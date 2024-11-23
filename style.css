@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('image.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form_container{
+    width: 100%;
+    height: 100%;
+    width: 400px;
+    height: 740px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    padding: 30px 50px 30px 50px;
+    margin-left: 280px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #a580ca;
+    font-size: 22px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: #a580ca;
+    margin-left: -40px;
+}
+
+.instructions {
+    margin: 5px;
+    color: #a580ca;
+    text-align: left;
+    margin-left: -5px;
+    font-size: 15px;
+}
+
+p {
+    color: #a580ca;
+    margin-left: -80px;
+    font-size: 18px;
+}
+
+.input_boxes{
+    width: 100%;
+    width: 100px;
+    margin: 15px 0;
+    margin-left: 40px;
+}
+
+.input_boxes input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 7px 7px 7px 7px
+}
+
+.placeholder {
+    color:#a580ca;
+}
+
+.radios {
+    color: #a580ca;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.drop {
+    color: #a580ca;
+    margin-left: 40px;
+}
+
+.checks {
+    color: #a580ca;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.form_container button {
+    margin: 10px;
+    width: 100%;
+    height: 20px;
+    background-color:rgb(23, 4, 61);
+    font-size: 20px;
+    margin-left: 90px;
+    color:rgb(185, 176, 221);
+}
+
+table {
+    width: 100%;
+    background-color: transparent;
+    font-size:  20px;
+    color: #a580ca;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(70px);
+}
+
+
+th, caption {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
